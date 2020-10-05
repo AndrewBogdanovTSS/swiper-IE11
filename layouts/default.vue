@@ -4,6 +4,21 @@
   </div>
 </template>
 
+<script>
+export default {
+  head() {
+    return {
+      script: [
+        {
+          type: 'text/javascript',
+          src: 'https://cdn.jsdelivr.net/gh/nuxodin/ie11CustomProperties@4.1.0/ie11CustomProperties.min.js'
+        }
+      ]
+    }
+  }
+}
+</script>
+
 <style>
 html {
   font-family:
